@@ -1,4 +1,3 @@
-import json
 import random
 
 log_levels = ["INFO", "WARNING", "ERROR"]
@@ -26,7 +25,7 @@ messages = {
     ]
 }
 
-file_path = "python_projects\Log-Analyzer\sample_logs\sample.log"
+file_path = "sample_logs\sample1.log"
 
 
 try:
@@ -34,8 +33,9 @@ try:
         for i in range(50):
             log_level_random = random.choice(log_levels)
             log_message = random.choice(messages[log_level_random])
-            file.write(log_message+"\n")
-        #json.dump(messages, file, indent=4)
+            file.write(f"{log_level_random} {log_message} \n")
         print(f"log file {file_path} was created!")
 except FileNotFoundError:
-    print("File was not found")
+    print("That file was not found")
+except PermissionError:
+    print("You do not have permission to read that file")
