@@ -1,0 +1,50 @@
+WARNING Disk space running low 
+ERROR Request timed out 
+WARNING High memory usage 
+INFO Database connection established 
+ERROR Request timed out 
+ERROR Database connection failed 
+INFO User logged in 
+ERROR Database connection failed 
+INFO User logged out 
+ERROR File not found 
+ERROR Request timed out 
+WARNING Disk space running low 
+ERROR Authentication failed 
+INFO User logged in 
+WARNING Slow database response 
+WARNING CPU usage above threshold 
+ERROR File not found 
+INFO User logged in 
+WARNING Slow database response 
+ERROR Authentication failed 
+ERROR File not found 
+INFO Server started successfully 
+INFO User logged in 
+INFO User logged in 
+INFO Backup completed 
+WARNING CPU usage above threshold 
+WARNING Disk space running low 
+WARNING CPU usage above threshold 
+INFO User logged in 
+ERROR Service unavailable 
+INFO Database connection established 
+WARNING Slow database response 
+INFO Server started successfully 
+ERROR Database connection failed 
+WARNING Slow database response 
+INFO Database connection established 
+ERROR Request timed out 
+INFO User logged in 
+INFO Server started successfully 
+WARNING Disk space running low 
+WARNING High memory usage 
+INFO Server started successfully 
+ERROR File not found 
+INFO User logged in 
+INFO User logged out 
+INFO User logged out 
+INFO User logged in 
+ERROR Authentication failed 
+WARNING Slow database response 
+WARNING CPU usage above threshold 
